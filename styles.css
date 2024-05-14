@@ -193,20 +193,15 @@
   
   /* Estilos para dispositivos móviles */
 @media (max-width: 767px) {
+  /* Asegura que la lista de productos tenga una sola columna y esté centrada */
   .container-items {
     grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    margin: 0 auto;
+    max-width: 400px;
   }
 
-  header {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .container-cart-products {
-    width: 90%;
-    left: 5%;
-  }
-
+  /* Alinea los iconos en la lista */
   .icon-list {
     display: flex;
     justify-content: center;
@@ -217,13 +212,161 @@
     margin: 0 10px;
   }
 
-  /* Desactivar punteado en botones */
+  /* Asegura que los botones sean fáciles de tocar */
+  button,
+  .nes-btn {
+    touch-action: manipulation;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  /* Alinea el encabezado y el contenedor del carrito al centro */
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-cart-products {
+    width: 90%;
+    left: 5%;
+  }
+
+  /* Desactiva el punteado en todos los botones */
   button {
     touch-action: manipulation;
   }
   
-  /* Desactivar punteado en botones específicos */
+  /* Desactiva el punteado en botones específicos */
   .your-button-class {
     touch-action: manipulation;
   }
+
+  /* Estilos para el carrito */
+  .cart-product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    flex-direction: row; /* Mantiene la disposición horizontal en el carrito */
+  }
+
+  .info-cart-product {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .cantidad-producto-carrito {
+    font-size: 16px;
+  }
+
+  .titulo-producto-carrito {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+  .precio-producto-carrito {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+  .icon-close {
+    width: 20px;
+    height: 20px;
+  }
+
+  .cart-total {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    gap: 20px;
+    flex-direction: column; /* Alinea verticalmente los elementos en el total del carrito */
+  }
+
+  .cart-total h3 {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .total-pagar {
+    font-size: 16px;
+    font-weight: 900;
+  }
+
+  .cart-empty {
+    font-size: 14px;
+    text-align: center; /* Centra el texto */
+    padding: 50px; /* Asegúrate de que el padding sea el mismo que en .container-cart-products */
+    display: none; /* Oculta el mensaje cuando el carrito esté vacío */
+  }
+
+  .hidden-cart {
+    display: none;
+  }
+  .container-cart-products {
+    width: 100%;
+    left: 0;
+    box-sizing: border-box;
+    padding: 85px; /* Aumenta el padding a 20px */
+}
+
+  .cart-product {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 50px solid #ccc;
+  }
+
+  .cart-product:last-child {
+    border-bottom: none;
+  }
+
+  .info-cart-product {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .titulo-producto-carrito {
+    font-size: 14px;
+    margin: 2px 0;
+  }
+
+  .precio-producto-carrito {
+    font-size: 12px;
+    margin: 2px 0;
+  }
+
+  .cantidad-producto-carrito {
+    font-size: 12px;
+    margin: 2px 0;
+  }
+
+  .icon-close {
+    width: 14px;
+    height: 14px;
+    margin-left: auto;
+  }
+
+  .cart-total {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .total-pagar {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .cart-empty {
+    font-size: 14px;
+    text-align: center;
+    padding: 20px;
+  }
+  
 }
