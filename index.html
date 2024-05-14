@@ -1,0 +1,1600 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+		<link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+		<link rel="stylesheet" href="./styles.css">
+		<title>TIENDA</title>
+		<link rel="stylesheet" href="styles.css" />
+		
+	</head>
+	<body>
+		<script>
+			window.addEventListener('mouseover', initLandbot, { once: true });
+			window.addEventListener('touchstart', initLandbot, { once: true });
+			var myLandbot;
+			function initLandbot() {
+			  if (!myLandbot) {
+				var s = document.createElement('script');s.type = 'text/javascript';s.async = true;
+				s.addEventListener('load', function() {
+				  myLandbot = new Landbot.Popup({
+					configUrl: 'https://storage.googleapis.com/landbot.online/v3/H-2218612-CQQ7CPJ7NS287B8Y/index.json',
+				  });
+				});
+				s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.js';
+				var x = document.getElementsByTagName('script')[0];
+				x.parentNode.insertBefore(s, x);
+			  }
+			}
+			</script>
+		<header>
+			<section class="nes-container with title">
+				<p class="title">XELAJU MOON</p>
+				
+			</section>
+			<section class="icon-list">
+				<!-- twitter -->
+				<i class="nes-icon twitter is-medium"></i>
+			  
+				<!-- facebook -->
+				<i class="nes-icon facebook is-medium"></i>
+			  
+				<!-- instagram -->
+				<i class="nes-icon instagram is-medium"></i>
+			  
+				<!-- github -->
+				<i class="nes-icon github is-medium"></i>
+			  
+				<!-- google -->
+				<i class="nes-icon google is-medium"></i>
+			  
+				<!-- gmail -->
+				<i class="nes-icon gmail is-medium"></i>
+			  
+			  
+				<!-- youtube -->
+				<i class="nes-icon youtube is-medium"></i>
+			  
+				<!-- reddit -->
+				<i class="nes-icon reddit is-medium"></i>
+			  
+				<!-- whatsapp -->
+				<i class="nes-icon whatsapp is-medium"></i>
+			  </section>
+			  
+
+			<div class="container-icon">
+				<div class="container-cart-icon">
+					<img src="Imagenes/carrito.png" alt="Carrito de compras" class="icon-cart">
+
+       				
+					<div class="count-products">
+						<span id="contador-productos">0</span>
+					</div>
+				</div>
+
+				<div class="container-cart-products hidden-cart">
+					<div class="row-product hidden">
+						<div class="cart-product">
+							<div class="info-cart-product">
+								<span class="cantidad-producto-carrito">1</span>
+								<p class="titulo-producto-carrito">Zapatos Nike</p>
+								<span class="precio-producto-carrito">$80</span>
+							</div>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								stroke="currentColor"
+								class="icon-close"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									d="M6 18L18 6M6 6l12 12"
+								/>
+							</svg>
+						</div>
+					</div>
+
+					<div class="cart-total hidden">
+						<h3>Total:</h3>
+						<span class="total-pagar">$200</span>
+					</div>
+					<p class="cart-empty">El carrito está vacío</p>
+				</div>
+			</div>
+		</header>
+		<div class="container-items">
+			<div class="item">
+				<figure>
+					<img
+						src="https://blogger.googleusercontent.com/img/a/AVvXsEg8FgHrPb7j7KE4Wu__yLJtYvWwSAAzbv81mEKM_s3l2Urz92TOs_3gp_dtd5PFdYTGxDAhwW-8bXqfI2ZizG2p5UtJ9E3nv6fXEdI4H9xj1rP5s9j8RY8EvZl6cj7i9yuXWg-SDbs1MJXvHWxBbL-OBAB4BYGm870CIZ-UkGFEgHWNFjgZGMcaBa82vHKe"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Granate Glamuroso</h2>
+					<p class="price">Q250</p>
+					<button class="nes-btn add-to-cart-btn" data-id="1" data-precio="250">Añadir al carrito</button>
+										    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+   					 </div>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipyEZ5IS2DTASN4j-VBX7w9WbqOB8S6urYtM-0eYaXm1r5mYS2xlk8nqMN-NtdntFdCsz22Clj1Xsr6TjztbK_eKVXAxGWKalaYicFA_7fdCGy6IHLAq0A60sUy0iV1SMRtWRu0GoWe0mPX9Ww8UlZvIqlm9JdZuqO-5Y_QGBFQmY67s68_WclpkkyfyD2/s320/_b9441b64-531b-4a64-8b5e-fe274401fe84.jpeg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Alba  <br>Algodón</h2>
+					<p class="price">Q150</p>
+					<button class="nes-btn" data-id="1" data-precio="150">Añadir al carrito</button>
+										    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://blogger.googleusercontent.com/img/a/AVvXsEiwqqsRW8XQCVJ2SwijSOPd-WbVCyUhwwW_KBhQhhlhRENbKRzwgMCUqllz0kI_S2U3VpqT61KajrMMZFAdtjYCPCwfLaczJBde_kJHKHyGupQAZ6_dRdoSyPul0ERWDUrVfKSXlUeKTTgyyYh1HU4ST_xS2xOfFAxplRYk8rXR6-TgIR5v0mBb-6nrX792"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Rasguño Azulón</h2>
+					<p class="price">Q125</p>
+					<button class="nes-btn add-to-cart-btn" data-id="1" data-precio="125">Añadir al carrito</button>
+										    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-half"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://blogger.googleusercontent.com/img/a/AVvXsEgPLfMA2LMuJIOat9ObYgVQ35HDdwM4fVbW_XhtkhKqe-xMl5sAsT5cYeh4UIsnaemn2JHINmiz3T8u6c_Iz2YKhUdsQLY2GXfR9qKDc91m9yktWFF9iN5gTLUjDouOqsLQyitxs5L16zN0O0a7Vp8f-q4-93P74rdwaaTi4vzbAhUHupOLmJ96mrgO5pra"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Zafiro Celestial</h2>
+					<p class="price">Q90</p>
+					<button class="nes-btn add-to-cart-btn" data-id="1" data-precio="125">Añadir al carrito</button>
+										    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-half"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://blogger.googleusercontent.com/img/a/AVvXsEg2KGc9csUCN6sRn8gRhpP__7K2Ijp00lisXbmakTrxXjSm7Pg-Z7SOgIT3-GyeVLU8eBrxVqeKt_0e6f6ScyhAdrcY3SjEvDXuKS_An2g_F_IgcQNHIBGYacM2tlz6cputb4AQzn_jGk1CH8vFR0bbSbGUwhO_HraywxEjsjq-y0UREou7nUXn686eBMes"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Pasión Carmesí</h2>
+					<p class="price">Q150</p>
+					<button class="nes-btn" href="#" data-id="1" data-precio="150">Añadir al carrito</button>
+					    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+ 
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://blogger.googleusercontent.com/img/a/AVvXsEiu6O-TpUZ4AmHVyE7vhNvR_iXyBzge3VQrAZdAFmlPBlsr-KIejxWSsLWp-WRRM9Qsk5taJDZSPQ92F2XYDIorpk6RxSQJb2Cx6rLbosHb7eSY5wM4PxkGleUGYZ2txCKxeiI0lLqVoxW3opKL-XjFBcBE1ARwdC3x1sCNW-sAer2b4JD0-Xgdf_VK4zDY"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Pureza <br>Lunar</h2>
+					<p class="price">Q90</p>
+					<button class="nes-btn" 	" data-id="1" data-precio="90">Añadir al carrito</button>
+										    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-half"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img		
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEgW6cm4HyQHGvYsbLq3N6n4Rh1my1Ufn9C0XueTzrCroI5uoC7bjeLzZ1_21Syu4va9y-dtzfvcpyY6nc3lVLyEYYwb94LnfbjiMkeqHUnJGNGn_aM9lV3UZZhOo_euQGMh1b9tHZPfBjGWk-8_3AUdL6bCWdG3zmMmUTQwQhL13RB7pgiGm43JzbjDntwT"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Turbo <br>Marino</h2>
+				<p class="price">Q190</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="190">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEi1G8bYBZN-ArZHrNUty1RQZyW_dpeoq4LZ_7ED1ZSek7SZ9amDQjlTdVwfgwfvc4YKfBPDHzmlZxIl2Ds2RKonXNiXuIxe_CnnyprWW2K6iHRK8WiiMQRRlJLw-JvthiheMLGTYLy-g_BOxJhUfPmav_EY7h6a94q1OkWTgK3bg8sLwWgDbl9ElMP2ebAx"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Triunfo Escarlata</h2>
+				<p class="price">Q180</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="180">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-half"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+		
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEhJSR3_LtySukEgmaL5XR30iO5DYWfnf-vGC1q0DfEdvdqukYYr_bcmlwFC1bHrOnqmDo0atorDj3kxVrxzY4deyD3_-_8vH4fExS6n77gBxY4g78HhEXcJTy2aLmQaJfJvHSz26p98LGSeUNl1x_S79J17yA3lceNnFVM8H295RItvdNAD6VRI_6ArLPCZ"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Falso Adidas Fitness</h2>
+				<p class="price">Q50</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="50">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEhBrmFq_fnVheL4CDR3TuHykIvRdOZFf9HaLZfI5s6lf6BDQFcRiDq90xLTi9D1DYMIRRx4F3gXc9_ko_Qvy4SqgXwM72Qht9Hxo4IWl5GFNAWDqz3zTbhd68LK9YsjF_nw_oy_JJrg1TdmsVArSXjwcMdzak3QuQKUSMcIy2SAk1v9w91b034b3lNipJYG"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Rojo <br>Ágil</h2>
+				<p class="price">Q150</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="150">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-half"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEiB98ERhI-027Wl1GSL-TVqYiH1-YKa82e3bVVcwjpNmmUUcFnUUNZ82-n2VRpjx5fm0N3Fpzm13DkkTI_gKAabJJUaRvi0yd-ujnpuuSHDdCcw0lYuLXRmBj7rMZiUXqBKnk-sBCYlyvgm6ZD2OHya0oDKJ3x1EEBxkqM6Sh0k3R4eo1pXhcHqLtIkML99"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Sprint <br>Marino</h2>
+				<p class="price">Q100</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="100">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEiIh9J8aGFfsO3sTe_GMU6rmkDmsdVfepQSzT_dB6iQ_RseY53Woi1quIr8gA0bchL1r2h8nD5dSyqvxtpdNiQK6-KjGbmnhndZIRn9VX3IxPy46cCwXKs3CeAolPF70gxv3o5Th3EptY2SBwaOfG8T3TWW-OMknnkP2G1UW-cPPvAq2ShvoFvBJ4ppI3cS"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Monja <br>Blanca </h2>
+				<p class="price">Q180</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="180">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEj_Eik8pWsd094vyAEE_1SA1bVDjxgNFBwoW0GJoR9_fiHsr6_ZS7lCgR53grXFU8XrF24z_qaKUrEBOA7eZ2Aq3Zgv7h2TKjJfFlnlzbDvZUiQApijcI6Y8iEz01n4TGFTFmiOMC64HjBV8TJDYJuMkWxaTbObnfGrtrH8bQfBPXhPUR9biZwNqEYHhs2e"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Monja <br>Negra </h2>
+				<p class="price">Q180</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="180">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+						<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-half"></i>
+   					 </div>
+			</div>
+		</div>
+
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEjBgJHpoQj-aybrauTa4-7swDyKD519B0FdSGU3f14kL2FqLesNXBLW6htTQwf4ZLJWL2EUObU8Ue9JBc5xWCCAVp4R-VEjoghhxPXS257zmQsohAGq4anAzcH7nWsiX-hrlTvWd65_yhR5irMCMzSlNLEKeJxWmdZ4QjIqGNAQ2rIN8M6ahnaVSMJ8Yu8g"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Elegancia Nocturna </h2>
+				<p class="price">Q275</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="275">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+						<i class="nes-icon is-small star is-half"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEi7gTjYsOi7zNiH9tGs_oe9iIS8eRlZ9Vx2yL53gK6wIpFLiwy4kgkLIi37Sx42wVPLOUe9y-C2-vqz1jQ3wbaJNcf5QKDkc5coz80QdoWCLYjeyJvmFccyEs_II89x8E0xZzlFqgrNsyQF60mOXS8iLXzzf1ZNDtthaDWJJVqhpGoGCamedbE81INYYyiR"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Luz de la Elegancia </h2>
+				<p class="price">Q300</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="300">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEjrgDxn_UdjhBrslfrwgQSzt8iqi2yelUaYkxBMHbC4d6KB8BS4b5_eV_XZllNVYauHYq3KU40wBrfWWTTKindwmQSC-EJb9Avua3TMTm7-Vq9KJXmaFZ8uPs34lVIaJ-kRLf1N7zJP-O_qSVuv-VEwoJEwDuYFkwEselv1fGX_yTAln1Pd7JCfCXZrH4b7"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Misterio de Medianoche </h2>
+				<p class="price">Q300</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="300">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+   					 </div>
+			</div>
+		</div>
+		
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEjgWT8wmy6ahXx05XsQZa-hQ_csDvHWdN3IgJP8vOyjL6a7dNHBgZ7pPuzkQe5V7fM91m5_cGxNbMP-h5LZJEJTqONf0VIpPp8pzpTB8J9eao1DXurW3y3LdIwErfG_jZsj5MHow8eWNnIsEo6rGXXWB_cYq1fBYYqjUlyyp6JAZbowSjUae2tfrcdiCV_-"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Brillo Azulino </h2>
+				<p class="price">Q250</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="250">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-half"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEjezVsOR3aK7wSd7Pf6Lb0e4DMZtc6ub8Jn67hvBmD0iOjnH_ym154aU-YcV-rNID8VCCamAtypA19qDGJU49wkWYIxv-KMek4hK0mQJ3XiN_eHzq6vayVM_Cgl6Xr1YPT97uPanL_gYT1Nu60rdl-v0BB4MTa1nic_A6OdRNWGg718dOSGUmTWxWafwUlH"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Arcoíris Urbano </h2>
+				<p class="price">Q300</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="300">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEgMrG-PM9_JvUOQJU1c6LJn3I-zGOJY-QgPR1SPvhkfUZpZae9ayN-RLYQZxXdf0vi0cu7qwf3CSXzbksvZwmDxlJThzOQdbNRiNFNM6o6avF86wgOAL9_yGYvN2bFTCHzv4IYebjUUwHSysYhS8-td_ruap4ESgfjPtRcI0wGVUCDrNTMBLQmrCurzNpmU"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Fusión Cromática </h2>
+				<p class="price">Q150</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="150">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-half"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEjT8BjtnrXxGpg9ReVv7DHFQnU0YywVI1frep7zfNkyQBJOwZnQCHgW3q9L7hCmP_4IqHd7SVkj0vO3xRwjRNERPWTi0YdWCPMdVFlUNLSvOh3VCTWR8IV5vCIHx_2ydpPYP94ViGlSb8hRtEZfxcEDqToiZlp_ahm_NX_f0dNw5-HXzvlYJtae-LKWrzns"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Estilo Multitono </h2>
+				<p class="price">Q170</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="170">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-half"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEimK6UGZYUG1OWou4BKze5pKsZjzN_w0qtAgwHtvFzxkqU7GcMgstmJPq7ABRx39qF7CFKEgnuoM9NcvsfS0Tuqic0Jgr2jb2AJ628QptkzIvSLAxsKJjMmDdGZ8C18x_OtqZutMdvPlgZcr0QlO7Bc_RwHerxCyVt1Qnf0dm85Ee90wDV8jl7ueSpUP4Hq"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Paso <br>de Gala </h2>
+				<p class="price">Q200</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="200">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-half"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEjy_uLcCS0IUMimHvZwSrfuJqdxVI7C4WWTb9AZRTt3umlhTEHoN74yaqdpGbK9leis2kX7BPokaTb085zg9z6ow1nSM6J5yjLpGJeHmIiucFabHvhilmWGWZBz68F0QWw40m5X8df1u4xuyGKe-dYPOmETgt_ABKcQ3gAYnFOz6PRrs8OSVEk1cmjZKcFP"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Elegancia Clásica </h2>
+				<p class="price">Q150</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="150">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-half"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEgZY5GvbF1m8M4Q_U-UJG-NjMMS-m3jucTcVaHhCIQXP5KhYBPL9Zhi8qB-dg0Zt_7ittry87PNwcBDu2pjTPP-xoYU7KwpYMEoqr5NqNXhXbwNraiJWTtysCCmiw20ZKiiM3DZje78cjer1hGBCRn6m7wkXID1ecpuGfPYr0euzBgnMteYdU0hN9sOmEdN"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Estilo Soberbio </h2>
+				<p class="price">Q180</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="180">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEgJKhRNxR5L9pdif_IxhmEE-Q3bwxCAEoZslECKpS-XaVMJiO41qRDmJSUwsUU9_i0uPdGxAyMKEy6DUQnjqKAvkCTxZFVHPXb4C8VzaUspJDUTYj3jQazp0wj8VUGhHIo8sL3EbGPMfLdhTxa91LZcg4U8l_9X_eyJuW_eQvflGUQjXAssHGUG632I_r0s"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Calzado de Distinción </h2>
+				<p class="price">Q200</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="200">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEiiS4f_GuQEfVmL5MpAKF6_iLgzqoEA2ZeJiV4M2rYLirEl0QQ7raO-fvMgx4nZ-ijRSP8hNwngo2ndn0yIMwWX3qk9rU3S1js_j4dOKTiyYVCL4UXElVZrz37Xp2WMe3DPCUl5pYaxiVhZ0rkrDwWwF_SXwSVs-q7e3xGXalTaZL_CgBD-Waos0u7Mmpwp"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Espíritu Vaquero </h2>
+				<p class="price">Q250</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="250">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEhOqU8aDI2hdm7NDMZD436P9vddEy4UX7HX8fC0UjYOZocjppMeiCJHS4LzUjrWwyOSgluqTxEhdRczACyYs4CgT05ZaO4KUODOHpt84mgDA4j7My8tFxk5EZhfoVW4e-ZVvWOP8Jgxf5ektkUvFFsU5VJlrPMamXbFndYksO6f7AaYjupaRNLUdsZ8q7lH"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Botas del Rodeo </h2>
+				<p class="price">Q250</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="250">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEhAxcssqYO9ZpJg2exf2hxzuF7yYBSPBSutR3iBNKdCeN0W1MQWKvdvww8cc4s0ySZ6WrPwp0sC_HC719g8dJ1OhmdoKi6Ilxk-goL5Bl49WXYvXqOvztPIn591so00adpJdDWqN0snHjIf5rEjnEhFsVwH6ZCUJZ6aYNo_WpK041mtLxiV6KJxP1HpuOHb"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Tradiciones Texanas </h2>
+				<p class="price">Q250</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="250">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEhDY4uMnX-LPntkg2rAfqvbjxtxrXT6S6lyYCnm0KgAOXi40NZC8poiilONutYrPjRje_wjWdY--Wl4mMkxz3MZQNyAO01Ao6kxNdfzNFcilyCcR3X23G7y26BOuwdC9c-93iTTl94_SjykzvxCnGeCLuezLCVF-EwGfzCPd7TYqBuZ17mdKgl1GwHrWcID"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Ráfaga Deportivas </h2>
+				<p class="price">Q200</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="200">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEiADmthLL8Av3Nv0lXi2W1jPkGiJrdnlM5V6R1Zvryv308WXLK8KnW0rSd69g2hoWs_suSCNPSHrDlr1O6DSrDNDcKtgML8fArArdeX_ADd2nzxRK7TMOI6XvEJllx2RwufnAvN3FRAWV2PZZiqmUjvBzPMpyiVjCK9RoEKY_oiD0u3-g0USNY5oWEXPU3f"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Velocidad Urbana </h2>
+				<p class="price">Q250</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="250">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-half"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEhIUs7e_sTSrZ32lO7m6_Bg0FRVXi8j2ZH7XjVigiurYIPN13G-DLrEzYKK7PeRIhV1_rWRWtvHbiUPKehGbHQ4BSBe427W_YFFyahdflZD4312uO8RlAiI0rOcTPRhmTgqB632wpgQ3-dI0i8QDr1SKG_ZNWAsD30LwqBC4g3_jxS3lP3j7-t30Py8FQ-7"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Fuerza Atlética </h2>
+				<p class="price">Q200</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="200">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-half"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEijRDKmyplOEXDuNNm-QJv1GiFA8oXmxBESQOuEIP0iiB-21Id5JwXgzF_dDPsx7w-r2h7OXvrYJZhbe_uW8PkR-4nU4WHW3B7SRDb3PqnzbXQgNkC438NqF91QBHAu_vJ_vFuVbYO-1SHAfWaQL-dvOjlU1JRDL8NLfsZ2s5-mw-ovJ0HBWF8RN7N0oSCS"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Energía Deportiva </h2>
+				<p class="price">Q300</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="300">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEhtbh4ntoDl_peawcGDtNXlAsa4jC_fFCVVWF55u6QCAMBMo_q2IA1xS7JkcvV2aYO7Q9_FvQdfbngMNv3vUgBHTC4GOLDAZkJ-XTTXCfuH3cuYZ-dqqp_LueOZDOhhvbZ83Csu3Giw0PAzpM0KHO-TmgR5VwOUwqkOQTzDUlaDBI8cjVP-dT979sbaPyle"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Zapatos Impulso </h2>
+				<p class="price">Q100</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="100">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+
+
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXlfZiznRnufsogWsymaZTuCnnnD1n1CBNkm73anVJeow5NSgsgxCbtqPWVzjjyYm80DpZYCJyNG0OzQGtCjFoBfSE5te3K6lOEQEUHCJmFOrn3wedT1MGQbHmFimH0EcuAiN4qsZWIPGwLXk0-CCxHJwAQXrYh3csLr20CIIU4QhhpyAJr6uUNqFVLyJF/s320/_897f9f8f-5153-46f7-a8e8-e584c5a187ae.jpeg"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Luz de la Pasarela </h2>
+				<p class="price">Q150</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="150">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-half"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEjEMhh1bxUfnrSBg-6nLON98E6zLFzAjmBeDmsxSNoA0el369parXOZe1ql5vNGMWTtNoY1xgXMiTBOV-5et9nqWYF4vl6T73Nd4myoBFLurEdd6ivzb59Lsm2NS69cMumdTh_jGOGyBlGLp1Txmp9JWs87VnWZgBG_68i0JT0O5DlZu5qjHClydz0421Th"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Pasión Escarlata </h2>
+				<p class="price">Q200</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="200">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-half"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_M4M1OgFE-oFmZ3BfXtPuJuExMLTeeH_eQIZbiIehvQSim8LzvMTpFn46UyKMURQwgsTd4w35Jq1U9gl1Q89ih3k3A9r0GpgZUW4gTQUrt56NaENdCiMU4bGC6cVMkWGlgAioc_0UCRW49JxZmY9FfLUSCE6KbWpCvD9BXL7iubbkmLyk2m-vjwvlksxM/s320/_f2577346-6216-4c66-8349-a2d27e6cda8b.jpeg"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Atracción Obsidiana</h2>
+				<p class="price">Q220</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="220">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-half"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEgMuRD0k4PHfspAlnhEK6tfJJHJAjISebUrlrCxRSnUL1ICSC14NQkSBW3XZL6QzYurgl3-m2fKcDo6ZU0-GEJNzWqjQsqMazdEMepiXmvxh_PG9pFlTjrOyc00ggnMkzN1_xpnY_rIu4ZoBp7LoTlcF7WPzIw6Rd4k-YYlVwyaG_B5zsk5725pMu8-slC6"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Blanca <br>Brisa</h2>
+				<p class="price">Q230</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="230">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-half"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEiHR0bgoLQpFXI1wks6fy2EnbIst3nJy1ThJsxFF2XO1aqPsg4l2M1lh4QJMMxCwggGXcRrhfCCcHnaNKWbHzRNuY-AtqFcCWdmBdVN-iuoSoJC7lB1bhKnHuwAiogeRVN8HEobVaKGkaXgLoiP9PwP8vuHSxDeAoV3TB7V82zkNg9iw9OLIS3K5T1LmYo-"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Aire <br>Fresco	</h2>
+				<p class="price">Q150</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="150">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-half"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEhq7euLIwhK0YIAZ62eI4TGdQo25YmbIJNIrqCKr7Zb-n1291AH0-zaMfETf4V-YM3frETDx5HiRFZ-qnOg6OvYaUnjKDK-NUHdwFrcmvReHUQDEhUNcHpJg3AUKbzgYec7I9tlIOG1yjFWwbQlrpAQdbGlOYPupZsRPvaVkkFWP3Dm_z_vxMp-TWJLN7q8"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Sombra Moderna</h2>
+				<p class="price">Q170</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="170">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEhEuVUdTSG71liklEupsC753QPE-2trV11TiWcONy5Wrh3anN2NnQj8siHx4Mpm-cDAq3cKXx7SwDp7S6WkXFzPvrWchKCZmHseC4fIuBoj1HT_62mVngsflztIwEabg7LWD5XB8z9n38-Gg-dMWCAi9IsNjQAah00EFi4RojVUfz7WDAzonlr4N6XmHxms"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Cascada Carmesí</h2>
+				<p class="price">Q180</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="180">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-half"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEjZ6p4YS9KlPtHuG4bEAoXEh4K9fpY7D3745Angy8dCcuis-XiSDwLrhkRMzDZMCj_QXkYd5nxhAAi1rCxEYR1hzNoFLBdb9-mPaWoRNPdt-_1urLVTWomycBQRtXWJfl4Fn_F6T3B2Btkb7_QLvbc4BN4w-8arrEckcXvVC1Xo6wTNzMOMF265NB5YK_rL"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Fitness Nocturno</h2>
+				<p class="price">Q190</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="190">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEj9cE_9r4W7xPbxNH2LqBQa7lycLF9mXcUMO7rTSBs7A-vBuLM5Tdl0FQWR4Mdvko9rWjOR_qU1x3JRfPp9lz02UPoT0A3CfZsQPumXAwECVCM8coD2RBLHj4XLh-FEJXtuTqm1cfgOwUx20rAi8exSD_1RPZ0C0Ghyo0cXk2C7gbub0eamY6vDLIuS00xX"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Aurora <br>Blanca</h2>
+				<p class="price">Q80</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="80">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEgbL78jg5k0IhN-UuY6bLPrWrVX3VWzfcmrMtikP-8fjKjNPVyL-Fa3HUUGZ11psgB-GWXcuwYyK6lTbuhv3JzvU9OQnG1DbPsS9FFU0NzKGzsPUUQ6Yknsg7ZwH6JtPZeIx1BcxVFKS7MTOGw1DAYoTaF6c2xgs2o-iVXAMX2RiCxkqIdOTRrGYzKf1N7B"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Reflejo del Mar</h2>
+				<p class="price">Q180</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="180">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEhBl0Y0IHPBVyETqZ8Xz1_4ilZtBhoJ-PfBnuoYAFpfwDio-RqaS8ScuHllXx7D7E1nTWMSqUee0d6MrwjEHAUiSC4SxCYVOmSnjHVAyH2TGOCk-T8YP_h6ckA6onwAGEyu8stCv3_fpuhsKGorPPvEUR6NCUPY_e_zqnAGVGrJ3kTa4021JF5v50w7bc0b"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Chispa <br>Carmín</h2>
+				<p class="price">Q150</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="150">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEgQLt47J_WgsIbCZ766UCdHolxxVh-guk035dlMBoRJYwCW5G5LhL2_7HvzcLPMcrCrkGTefulPIESgeltil9ZOmUa3aFtNE3aIiDilgpdjVXIWVnWgG5b1N7REs4JcE9dv0t4JNWDGkHNrjhQ0OTJfB12LNT9xIQ3H66l913LcAIZI75bsC3jsjiE52of_"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Agilidad Oscura</h2>
+				<p class="price">Q100</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="100">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-half"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEgFxd5JN7PggTb3j0xSOF4qPvuzR218J4oEqh_wg1-bkEfOGIr1vusrcz5M6KR0m-y7u0ihylBPjNMH0dzmF9SIpdC6bk60t87T0julfmHR-I2mISRJq8RUyknWEHU5JkW2bXyqBBeWd6Hz1a0aicJUBJVP9CJwliPkWSlNWksYr-7BorkVRtLXV6PR1pbZ"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Luz <br>Deportiva</h2>
+				<p class="price">Q170</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="170">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEgeOKKPt5Vp7qR5iJWBXwe6PGea6KZ9z_vEdusuovHwvLP9GbAWXvB6q8YKm3Fp3K4bWmkTwvdfeO1U__RrLYKS7vsmi1Iv_37asJ-78BrGAT22S7_jpzpZu_S1dmDeXNqc4XbdjFlWZIV4Bm-_HdNS8cHT4Qo6oN3pMBTakrs5yndQWqbO0soxFLAU4_x7"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Estilo Celestial</h2>
+				<p class="price">Q180</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="180">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+						<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-half"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEhNprHVZIj1JZZHSelF9ngooP5usXDqLU91YETBxbrdq5CJnTJ4dNWQJRAbuYRGvDW5a2BYxWttnZwwDQIt8YNbCCLIqvYAa47B7uqROO-uwQNuXgk6xBNawPnM0GMzhv8YPWcPjKlDrEFO0vdBGQbgAJDIGtdPCQshS_47tNFCd9NWEk0MH0Kz2fFzcntC"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Amanecer Activo</h2>
+				<p class="price">Q150</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="150">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEiro_5qKU7RmXm7MC8IKalAX-3SKXs6BdK1oCzoRCELOCvT3BdaFAXu0Xsjs8JBwOh6U-WmyPEnTDZo2VIFr8ptjnZQdOEL6_lkg-NsQ9PnT0QpQgNVPZdZLIjaDk4Mlr6616Ro5vGqqBHwFQgMUrV0_Gt9DKurf5KR1QJnLgmg-YUY8_7Wpwd1ahNkVnlW"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Oscuridad Glamurosa</h2>
+				<p class="price">Q250</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="250">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+						<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-half"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEjt3_hbW-1wN2gFO60R90y9yAHwXkjrRARMLTdTXPUMUJZPcGqN_alPMJHRup0uP82h2yL43fX9hHVgtF_WCVV_3FeZ51FweJ74Aa1NFzNKe6liHC67W8Ck6STogMFpBiIiz_cTMcWVoKmz38adF7WLTmPyrda-JhkFqmt50MHHv-yfXmlYK1zIFMUKJUr_"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Blanco Angelical</h2>
+				<p class="price">Q270</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="270">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+						<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-half"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEjecWDB0k6qR9HzEjNmKoUaEC4_l_8FH94NsCzMWiucRKNKE6BYcA8GO47pqCS3mFyte7LsZnrZdH-QFuazROcF4VE_CvQodGG2sI9QLuczoUXbQqm9Qu1_sMk0E2gOZ8dQF_LTMiodV9GvYWmkayfE4CnfsKbsVyCinA5Qr2Z-0i-rr4Q_tj6q6PAAMUf4"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Turquesa Serena</h2>
+				<p class="price">Q300</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="300">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEjDjbsMtPvpcR_4jZVuYT7KlzJjDZKoQeuKu4GxKPfXKJL70xBHYEKAgSGoV4TFtD7gYhLOyA3yaYM8U-VvuqNuhbStiJGE0QVr6-d6eomWwSCe2SsCrHCgVaJkl9iTZCcw_wp8UbnqKhJCEYtpf6PirBGBVIzuNC8behgQht8NIS2lVCnXjPNdMD19HHlW"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Elegancia Escarlata</h2>
+				<p class="price">Q200</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="200">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-half"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEhPwc0wUbD6oSD-KlmEybPIK-b8V-W4oPWfSIz8cJNHIWnTlVizH7ks221jojRyMPNBK5Eml3MVMctZssad9explULD4CUrfvpN42NpxWryfl5e7-fnvxcpt_XEdr3BS86ZD33H6Nfw4Bih4mVgpJOSu5G74l5Du1n1103-9UFCu1aU0X7uZKULNM4gX9wj"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Estilo <br>Libre</h2>
+				<p class="price">Q200</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="200">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-half"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEiZqsxVclGe0YsDcOpkmB9elQW3ht8eMeWAFKY7BK72HD_0wxXsvwldhr2jc-74lq5me2Ab2bWHNCFevne8X6qi04pHZkeg77tuG6PA2zUNl27hJa6PZClf7MUcM3iBNzu67Sv-A-Db6-V-0ZgGq50uGE3FbKqRmGXZ6ujjLm3GAWm5zRF_ek2AJXaRfegL"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Brisa <br>Urbana</h2>
+				<p class="price">Q300</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="300">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEhSOC5cN1RXqmmYdnPLz3ch2lDRl1o4-y1jtV_12d5XYsqR10i05_dH9Si8fh1x_Xvveth-xp2EKW8YVHPrWmkWLBxDYLy6pWnL2aju9bEOdQ0Ag9Nt179AQBmCFLqnep9kkZ4uNqIY_fx_MlItj2JaRXBj8k667BGbL22qOO5VryLkwUQV_mzOk92IyKTu"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Brisa <br>Urbana</h2>
+				<p class="price">Q250</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="250">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-half"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEhSOC5cN1RXqmmYdnPLz3ch2lDRl1o4-y1jtV_12d5XYsqR10i05_dH9Si8fh1x_Xvveth-xp2EKW8YVHPrWmkWLBxDYLy6pWnL2aju9bEOdQ0Ag9Nt179AQBmCFLqnep9kkZ4uNqIY_fx_MlItj2JaRXBj8k667BGbL22qOO5VryLkwUQV_mzOk92IyKTu"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Paseo <br>Ligero</h2>
+				<p class="price">Q150</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="150">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-half"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEgtcOk0mP9bbV-Y8zC6yQMe5NW8SqGzIXIwF9QaI3ZcQJqXN0k6wh5URvBOqrcDjkiWsz21_dVkZsuryA64sjaJ0RTbI_9El88Uw8XlmAGzcvf5ruYX-8lusIDh4ZoAYLOkOtQpTTQO1gc2gfVTol94B2TPQTihma4FGSG_ZZ-53V_m6Xz7N213nEmdIWnu"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Encanto Casual</h2>
+				<p class="price">Q200</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="200">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-half"></i>
+   					 </div>
+			</div>
+		</div>
+
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEiQWy1SKI3ZRYb9U5EAtSKHYqaAqEpIeTD4_4jywK2cavqX4Gj0kGzpEpOt8wWT0VhSCZyhXryfqqDIxmvOFVcpx8pkgWjMhncahgWWnFIvdTOY1kRfFtDtA9_wCEoavMBCAvsBn_MsvNKwnn49rFbZC17hoLySa6hUYSZ4hcjCUEgVjix4og54_FEtnDEr"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Pisada Dinámica	</h2>
+				<p class="price">Q250</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="150">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+						<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEistoa3ucvGwHVZEIBIBfideZqYCIxNWPZC0V2iWHcwi6Ni7RY_wlf4d-oOItc1K-TXDwOjhzLFLKZ0PUNtWhi9TfG9ti7ft6THj-_7mZiX2x2IS1UgbFlhReHDYUUoQRGy2NBZ0Yd9kCNGLkGpMUDGpkbuDoMLHYBnQ5lgrM1o_Pj1JiO6J_HPYsQYO7XP"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Estilo <br>Activo	</h2>
+				<p class="price">Q200</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="200">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-half"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEiWITR0pBYFmuKME2lDufrgGCktsqlOX6s82-hpsaW5ORv6NDKoTQeMSJRO2HmpSE61F492F85tPY8Iexa49W6dXdmd6r7wS1cAioZoD3umSK5fJIFktgmeFpBsV8C0GEDdgpPbX67HoJ8CdIeu6zuvVOJt1AySvWNsCpaHKurpoQKSv1r4bgPRzojOLvnv"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Elegancia Sofisticada	</h2>
+				<p class="price">Q300</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="300">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEjSqTngNtceqUvtiaVFVx2OlOhQARITfMJyRSyO2JCXqyfK9zgNw4AxEx8Qi3piCEcyXpIRi2JO6v2d90RDMIf33nxTIREQTzlhGLCm_r47Ky1917l6pf6JbqDE6bwJVZROGjJInwj8esay8MEjy-ifiSuzL9gNj_8su9BTeYRQOQjLcmO0v1GiVNwmCt59"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Pasos <br>de Gala	</h2>
+				<p class="price">Q150</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="150">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+						<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEg0yJyVokP1ayO1xsjCo-8QpaP2GSgwcEXeULNND-sZUF5IJISWGZDb_va7l6-zqDvB6SKc5zlVpd5BGVk66KEespq9E_SpqJV3GfJWnKGdlaiyxLJqBQgha6FIyOCBs7utvH1UuRFmnsvTE0S-ojFAidrG0nzSHrGKOv1U9xDAAYi-33lB5_wTsN1brqZm"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Belleza del Oeste	</h2>
+				<p class="price">Q150</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="150">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+						<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEj8qs8KkgjP3gjjYAezTFS66x7DGalM_hSh7NZTjwqVvvH78jAsiBtumAiCVHq3jnDw9zsmUYIFz-_Tvck572h_Lx7KxztIi77KkEdcubnqoswer-OipYg0ZI913xpT5nlwPnslzT89GGGkAttWylJop-OuHbg1K1JcpHXkJhswefJNl3agFfTHwIAOWhEw"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Elegancia Campestre	</h2>
+				<p class="price">Q250</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="250">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+						<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEi806_uEtHAAncwJgFcufuSSqXXAvyTykhi95CvCeOxSvHeZK6BfgNfcCLoxkQ5rWfeKbyAo7w53Ipfid6mBKD-_fUULhpU44NXEjxiTnMKce1IR7mFcwjqP1XBqaNKg5IRnBbY0MXCWz2J2PU0640Z7nbNhLpTdB9ySQU_8dpGOwv5cBOh5AXP52DdJzNp"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Estilo Cowgirl	</h2>
+				<p class="price">Q200</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="200">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+       				 <i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-half"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEhUTfgxzNGoS5fd0lrG9TIZC56voYApEESjZQigrsDHCug3fTlGfRljC-qSeOwuOx19WslhgrqgzYgW0vOhmSOlC4YZS8Q1qCms1-LZPV6PLYbyXMX59CGN7-VdM9JAp-h6GWKISkUq8-bz_9aeF8Z9t5lzAAbfrXnhZC9Wt7o_g45S-R3RcJvEDLzCl23j"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Estilo Glamuroso	</h2>
+				<p class="price">Q250</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="250">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+						<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEhd4PAj4d0gDZzZnH2WlGMnyOhkZ0gu2AOjdnCFixWjuABtgsgcY_jIsszQhPVhDzGn7CNBIPkPXLnPc9sa5iyZxsYwVC6tPpctRjc6wQp8rnP1Qa0S9xD9n9VxMxEx9VJFDBwcJhJLX8uG2BbfAzTm3I_P74r8WBYup3YRkwfkZrPoBzgkWDh2fKvWd0si"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Encanto Clásic				</h2>
+				<p class="price">Q150</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="150">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+						<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEjpuR9GP3OZLsr5IULZEQ5lJw4IVPWRp3nJ7spQE_vwfq9hic-7vFYVb9FWz9jjns6KrpREL_v3gGxGrhghVwG6S-K2iSvn0EWjCJvjiYHWxKSGyBNrY0RXAaD-cOT-30v0flHMZMAdWsxan4cL2WaXx6x8qV3655s5-HaSKiU_yW3NEeE6bjjqwQyMYPvV"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Espíritu de la Pradera			</h2>
+				<p class="price">Q250</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="250">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+						<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEh8mcGNvy2Y62tYu-fbSZ-WZLZZ22WXtfLuObfpEjcziE8Z6UuGu7-KBDtTvAjVnlO6-a4OFlWR-waTpFdCAvTbY-17sut0VdMJfXQB1FsiColDf8OOp2qKmePQ4r5GBRGLIZErPILKJgLw9d5Ag-UU9XJTCH4RdXRH7WO6FwhV7m_A4HFY1yTDr7Dbfl-P"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Encanto Salvaje		</h2>
+				<p class="price">Q300</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="300">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+						<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEibwmFO5g4BuMJNsHdvwhnTuB4GQdfpoJLf2-GLHfj8PwLq-1XjBdaIFzh15UhW780MUo9KlxqLuYwPgbGA0UJSc8gBMiqcCbSOjntbbRWikpdO2orqPoRy1U7QQLZ3S1A0yKG14d6JyVUzuansK4y20mOK6khp-O30UH7q9E-G8MQbFHSdiYkGxEscYAzb"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Pasión Ecuestre		</h2>
+				<p class="price">Q150</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="150">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+						<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star is-transparent"></i>
+   					 </div>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://blogger.googleusercontent.com/img/a/AVvXsEgCgaCFkj_yIL5_b9gW8SA3n-nyiNrfeEyLr1FnCElZi9lAp3xQiE-_yOKPGHp2bUCMDXluANk6qXpc7cDwq-mo_M6XivIt8x7-nX8bE0BR5nuLF5TPsbX9ChK6N1TmQ7ln6U7RsYHhxiX92x1PsUV_IzpOAnR7Re_F7u1PImiF-1xIg4WI-Ecew-Wlckdt"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Arte del Rodeo		</h2>
+				<p class="price">Q300</p>
+				<button class="nes-btn" href="#" data-id="1" data-precio="150">Añadir al carrito</button>
+									    <!-- Contenedor para las estrellas -->
+    				<div class="star-container">
+						<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+        				<i class="nes-icon is-small star"></i>
+   					 </div>
+			</div>
+		</div>
+
+
+
+
+
+
+		
+
+
+
+		
+	
+		</div>
+		
+
+    </div>
+	<script src="index.js"></script>
+</body>
+<footer>
+	<div class="nes-container with-title is-centered">
+		<p class="title">XELAJU MOON</p>
+		<p>Gracias por visitar XELAJU MOON.</p>
+		  <!-- octocat -->
+		  <i class="nes-octocat animate"></i>
+	  </div>
+</footer>
+</html>
